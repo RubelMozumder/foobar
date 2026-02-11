@@ -1,0 +1,31 @@
+{
+  "template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+  "commit": "39111a1523eed5d921b66138ac572cccf441ac51",
+  "checkout": "main",
+  "context": {
+    "cookiecutter": {
+      "full_name": "John Doe",
+      "email": "john.doe@physik.hu-berlin.de",
+      "github_username": "foo",
+      "plugin_name": "foobar",
+      "module_name": "foobar",
+      "short_description": "Nomad example template",
+      "version": "0.1.0",
+      "license": "MIT",
+      "include_schema_package": true,
+      "include_normalizer": true,
+      "include_parser": true,
+      "include_app": true,
+      "include_example_uploads": true,
+      "include_action": true,
+      "include_north_tools": true,
+      "north_tool_name": "my_north_tool",
+      "_copy_without_render": [
+        "*.html"
+      ],
+      "_template": "https://github.com/FAIRmat-NFDI/cookiecutter-nomad-plugin",
+      "_commit": "39111a1523eed5d921b66138ac572cccf441ac51"
+    }
+  },
+  "directory": null
+}
